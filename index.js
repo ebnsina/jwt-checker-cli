@@ -30,7 +30,7 @@ if (token.toLowerCase() === "help") {
   No secret = only decoding, like jwt.io UI.
 
 🔗 Project:
-  https://github.com/your-repo/jwt-checker-cli
+  https://github.com/ebnsina/jwt-checker-cli
   `);
   process.exit(0);
 }
