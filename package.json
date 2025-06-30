@@ -1,0 +1,22 @@
+{
+  "name": "jwt-checker-cli",
+  "version": "1.0.0",
+  "description": "A simple CLI tool to decode and verify JWTs like jwt.io",
+  "main": "index.js",
+  "bin": {
+    "jwt-checker": "./index.js"
+  },
+  "keywords": [
+    "jwt",
+    "cli",
+    "decode",
+    "verify",
+    "jwt.io"
+  ],
+  "author": "Ebn Sina <ebnsina.me@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^14.0.0",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
